@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "golden": "tsx src/tests/golden-master-test.ts",
+    "golden": "tsx src/__tests__/golden-master-test.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
