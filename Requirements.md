@@ -15,17 +15,17 @@ Tu tarea es añadir una nueva funcionalidad al sistema para que podamos comenzar
 
 Bastante simple, ¿no? Bueno, ahora es donde se pone interesante:
 
-- Una vez que ha pasado la fecha recomendada de venta (`SellIn`), la calidad (`Quality`) se degrada al doble de velocidad
-- La `calidad` de un artículo nunca es negativa
-- El "Queso Brie envejecido" (`Aged brie`) incrementa su calidad (`Quality`) a medida que madura con los días
-  - Su calidad (`Quality`) aumenta en `1` unidad cada día
-  - Una vez expirada la fecha de venta (`SellIn`) su calidad (`Quality`) aumenta el doble día
-- La calidad de un artículo (`Quality`) no puede superar `50`
-- El artículo `Sulfuras`, es un artículo legendario, no necesitamos venderlo en ninguna fecha (`SellIn`) y tampoco se degrada en (`Quality`)
-- El artículo "Entrada al Backstage" (`Backstage passes`), incrementa su valor (`Quality`) a medida que acerca la fecha del concierto (`SellIn`)
-  - Si faltan `10` días o menos para el concierto, la calidad (`Quality`) se incrementa en `2` unidades
-  - Si faltan `5` días o menos, la calidad (`Quality`) se incrementa en `3` unidades
-  - Una vez pasada fecha del concierto (`SellIn`), la entrada pierde su valor (`Quality`) y cae a `0`
+1- Una vez que ha pasado la fecha recomendada de venta (`SellIn`), la calidad (`Quality`) se degrada al doble de velocidad
+2- La `calidad` de un artículo nunca es negativa
+3- El "Queso Brie envejecido" (`Aged brie`) incrementa su calidad (`Quality`) a medida que madura con los días
+ 3.1 - Su calidad (`Quality`) aumenta en `1` unidad cada día
+  3.2- Una vez expirada la fecha de venta (`SellIn`) su calidad (`Quality`) aumenta el doble día
+4- La calidad de un artículo (`Quality`) no puede superar `50`
+5- El artículo `Sulfuras`, es un artículo legendario, no necesitamos venderlo en ninguna fecha (`SellIn`) y tampoco se degrada en (`Quality`)
+6- El artículo "Entrada al Backstage" (`Backstage passes`), incrementa su valor (`Quality`) a medida que acerca la fecha del concierto (`SellIn`)
+  6.1- Si faltan `10` días o menos para el concierto, la calidad (`Quality`) se incrementa en `2` unidades
+  6.2- Si faltan `5` días o menos, la calidad (`Quality`) se incrementa en `3` unidades
+  6.3 Una vez pasada fecha del concierto (`SellIn`), la entrada pierde su valor (`Quality`) y cae a `0`
 
 ## Tu tarea
 
